@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: white;
+    padding: 15px 50px;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+}
+
+.topo-esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 16px;
+    height: 100%;
+}
+
+.topo-esquerda > p:hover {
+    color: rgb(82, 82, 82);
+    background-color: rgb(245, 245, 245);
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.topo-esquerda #mundo:hover {
+    background-color: rgb(245, 245, 245);
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.topo-esquerda-botoes {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.topo-esquerda-botoes #profile {
+    color: rgb(214, 15, 15);
+    width: 20px;
+    height: 20px;
+}
+
+.topo-esquerda-botoes:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.041);
+}
+
+.topo-botoes {
+    gap: 30px;
+    display: flex;
+}
+
+.topo-botoes > #acomodacoes {
+    font-weight: 500;
+}
+
+.topo-botoes > #experiencias {
+    color:rgb(189, 189, 189);
+}
+
+.topo-botoes > #experiencias:hover {
+    color: rgb(128, 128, 128);
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#logo-airbnb {
+    width: 7em;
+    height: 3.5em;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
