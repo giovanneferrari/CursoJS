@@ -27,7 +27,7 @@ body {
     width: 100%;
 }
 
-.topo-esquerda {
+.topo-direita {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -35,7 +35,7 @@ body {
     height: 100%;
 }
 
-.topo-esquerda > p:hover {
+.topo-direita > p:hover {
     color: rgb(82, 82, 82);
     background-color: rgb(245, 245, 245);
     padding: 10px 10px;
@@ -43,14 +43,20 @@ body {
     cursor: pointer;
 }
 
-.topo-esquerda #mundo:hover {
-    background-color: rgb(245, 245, 245);
+.topo-direita .mundo {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.topo-direita .mundo:hover {
+    background-color: #F7F7F7;
     padding: 10px 10px;
     border-radius: 20px;
     cursor: pointer;
 }
 
-.topo-esquerda-botoes {
+.topo-direita-botoes {
     display: flex;
     gap: 10px;
     padding: 10px;
@@ -59,12 +65,12 @@ body {
     cursor: pointer;
 }
 
-.topo-esquerda-botoes #profile {
+.topo-direita-botoes #profile {
     width: 20px;
     height: 20px;
 }
 
-.topo-esquerda-botoes:hover {
+.topo-direita-botoes:hover {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.041);
 }
 
@@ -81,6 +87,7 @@ body {
 
 .topo-botoes > #experiencias {
     color:rgb(189, 189, 189);
+    padding: 20px;
 }
 
 .topo-botoes > #experiencias:hover {
@@ -94,6 +101,7 @@ body {
 #logo-airbnb {
     width: 7em;
     height: 3.5em;
+    cursor: pointer;
 }
 
 img {
@@ -102,9 +110,31 @@ img {
 }
 
 .container-pesquisa {
+    padding: 10px 0 20px 0;
+}
+
+.tipos-destinos {
     display: flex;
+    gap: 5px;
+    padding: 20px;
+    font-size: 13px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinos {
+    display: grid;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.destinos > img {
+    align-self: center;
+    justify-self: center;
 }
 
 .pesquisa {
@@ -118,6 +148,7 @@ img {
     justify-items: flex-end;
     align-items: center;
     padding-right: 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.041);
 }
 
 .barra-pesquisa, .barra-pesquisa2 {
@@ -161,4 +192,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.pesquisa #search:hover {
+    background-color: #b80b2e;
 }
