@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="container">
+        <section class="visor">
+            <h3 id="visor-conta">TESTE</h3>
+            <H2 id="visor-resultado">0</H2>
+        </section>
+        <section class="teclas">
+            <div class="teclas-1">
+                <div id="AC" onclick="limpar()">AC</div>
+                <div id="sinal" onclick="sinal()">+/-</div>
+                <div id="porcentagem">%</div>
+                <div id="divisao">÷</div>
+            </div>
+            <div class="teclas-2">
+                <div id="teclas-sete" onclick="sete()">7</div>
+                <div id="teclas-oito" onclick="oito()">8</div>
+                <div id="teclas-nove">9</div>
+                <div id="tecla-multiplicacao">X</div>
+            </div>
+            <div class='teclas-3'>
+                <div id="teclas-numericas">4</div>
+                <div id="teclas-numericas">5</div>
+                <div id="teclas-numericas">6</div>
+                <div id="teclas-laterais">-</div>
+            </div>
+            <div class="teclas-4">
+                <div id="teclas-numericas">1</div>
+                <div id="teclas-numericas">2</div>
+                <div id="teclas-numericas">3</div>
+                <div id="teclas-laterais">+</div>
+            </div>
+            <div class="teclas-5">
+                <div id="teclas-numericas-zero">0</div>
+                <div id="teclas-numericas">,</div>
+                <div id="teclas-laterais">=</div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
