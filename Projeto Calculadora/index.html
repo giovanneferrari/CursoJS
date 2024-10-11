@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="container">
+        <section class="visor">
+            <h3 id="visor-conta"></h3>
+            <H2 id="visor-resultado">0</H2>
+        </section>
+        <section class="teclas">
+            <div class="teclas-1">
+                <div id="AC" onclick="limpar()">AC</div>
+                <div id="sinal" onclick="sinal()">+/-</div>
+                <div id="porcentagem" onclick="porcentagem()">%</div>
+                <div id="divisao" onclick="divisao()">÷</div>
+            </div>
+            <div class="teclas-2">
+                <div id="teclas-sete" onclick="sete()">7</div>
+                <div id="teclas-oito" onclick="oito()">8</div>
+                <div id="teclas-nove" onclick="nove()">9</div>
+                <div id="tecla-multiplicacao" onclick="multiplicacao()">X</div>
+            </div>
+            <div class='teclas-3'>
+                <div id="teclas-numericas" onclick="quatro()">4</div>
+                <div id="teclas-numericas" onclick="cinco()">5</div>
+                <div id="teclas-numericas" onclick="seis()">6</div>
+                <div id="teclas-laterais" onclick="subtracao()">-</div>
+            </div>
+            <div class="teclas-4">
+                <div id="teclas-numericas" onclick="um()">1</div>
+                <div id="teclas-numericas" onclick="dois()">2</div>
+                <div id="teclas-numericas" onclick="tres()">3</div>
+                <div id="teclas-laterais" onclick="soma()">+</div>
+            </div>
+            <div class="teclas-5">
+                <div id="teclas-numericas-zero" onclick="zero()">0</div>
+                <div id="teclas-numericas" onclick="decimal()">,</div>
+                <div id="teclas-laterais" onclick="operacao()">=</div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
