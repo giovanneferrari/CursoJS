@@ -19,8 +19,8 @@ body {
 .container {
     background-color: black;
     color: white;
-    max-width: 30vw;
-    max-height: 80vh;
+    max-width: auto;
+    max-height: auto;
     padding: 15px;
     border-radius: 15px;
 }
