@@ -19,6 +19,7 @@ function porcentagem() {
     console.log(porcentagem)
 }
 
+
 function sete() {
     let sete = 7
     resultado.textContent = resultado.textContent + sete
