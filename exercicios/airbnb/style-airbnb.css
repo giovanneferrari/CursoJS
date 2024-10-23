@@ -193,7 +193,7 @@ img {
 
 .pesquisa {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     border: 1px solid rgb(218, 218, 218);
     text-decoration: none;
     width: 870px;
@@ -211,21 +211,18 @@ img {
     padding: 10px 25px;
 }
 
-.barra-pesquisa::before {
-    content: '';
-    border: 0.1px solid rgb(167, 167, 167);
-    width: 0.3px;
-    height: 100%;
-    background-color: rgb(145, 72, 72);
-}
-
 .barra-pesquisa:hover, .barra-pesquisa2:hover {
     background-color: rgb(238, 238, 238);
     border-radius: 80px;
 }
 
-.barra-pesquisa:hover::before {
-    display:none;
+#traco::after {
+    content: "";
+    border: 0.2px solid rgb(225, 225, 225);
+}
+
+#traco:hover::after {
+    border: 0.1px solid white;
 }
 
 .barra-pesquisa > label, .barra-pesquisa2 > label {
