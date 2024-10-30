@@ -164,7 +164,7 @@ img {
     zoom: 1.2;
 }
 
-.destinos > img {
+.destinos > img, #img-selecao1 {
     opacity: 60%;
 }
 
@@ -175,6 +175,17 @@ img {
 .destinos-selecao {
     opacity: 100%;
     color: black;
+}
+
+#selecao1:hover {
+    cursor: pointer;
+    color: black;
+    opacity: 100%;
+}
+
+#img-selecao1:hover {
+    cursor: pointer;
+    opacity: 100%;
 }
 
 .destinos-seta {
@@ -192,9 +203,7 @@ img {
 }
 
 .pesquisa {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 1fr;
+    display: flex;
     border: 1px solid rgb(218, 218, 218);
     text-decoration: none;
     width: 870px;
